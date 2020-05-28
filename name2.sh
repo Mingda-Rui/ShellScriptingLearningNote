@@ -4,3 +4,6 @@ read myname
 # By using curlly braces and the special ":-" usage,
 # you can specify a default value to use if the variable is unset:
 echo "Your name is : ${myname:-Mingda Rui}"
+echo "Your name is : ${myname:-`whoami`}"
+echo "Your name is : ${myname:=Mingda Rui}"
+echo "Your name is : ${myname}"
